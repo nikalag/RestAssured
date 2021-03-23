@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
+import static org.hamcrest.Matchers.*;
 
 public class BDDTest {
     @Test
