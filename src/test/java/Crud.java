@@ -5,10 +5,8 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.notNullValue;
+import static org.hamcrest.Matchers.equalTo;
 
 public class Crud {
 
@@ -25,7 +23,6 @@ public class Crud {
                 .delete("/posts/1")
                 .then()
                 .extract().response();
-
         Assert.assertEquals(200, response.statusCode());
     }
 
@@ -46,15 +43,15 @@ public class Crud {
     public void test2() {
 
         JSONObject request = new JSONObject();
-        request.put("name", "chaya");
-        request.put("job", "BA");
+        request.put("name", "morpheus");
+        request.put("job", "zion resident");
 
 
         given().
                 body(request.toJSONString()).
                 when().
-                post("https://reqres.in/api/users").
-                then().statusCode(201 );
+                post("https://reqres.in/api/users/2").
+                then().body("data.email", equalTo("morpheus"));
 
     }
     @Test
@@ -81,7 +78,7 @@ public class Crud {
                 when().
                 delete("https://reqres.in/api/users/2").
                 then().statusCode(204).
-                log().all();
+                log().ifStatusCodeIsEqualTo(204);
 
     }
 }

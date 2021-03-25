@@ -17,14 +17,14 @@ public class Hamcrest {
         RestAssured.given().when()
                 .get("https://chercher.tech/sample/api/product/read")
                 .then()
-                .body("records.id", hasItem("3928"));
+                .body("records.id", empty());
     }
     @Test
     void test3() {
         RestAssured.given().when()
                 .get("https://chercher.tech/sample/api/product/read")
                 .then()
-                .body("records.id[0]", not(equalTo("3928")));
+                .body("records.id[1,2]",hasItems("4361","4360"));
     }
     @Test
     void test4(){

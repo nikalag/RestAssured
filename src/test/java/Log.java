@@ -8,7 +8,7 @@ public class Log {
         RestAssured.given()
                 .when()
                 .log()
-                .all()
+                .uri()
                 .get("https://chercher.tech/sample/api/product/read");
     }
     @Test
@@ -20,5 +20,4 @@ public class Log {
                 .then()
                 .log().all(); // after receiving the response from server
     }
-
 }

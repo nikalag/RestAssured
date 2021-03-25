@@ -77,14 +77,5 @@ public class SimpleGetTest {
 
     }
 
-    @Test
-    public void RegistrationSuccessful()
-    {
-        RestAssured.baseURI ="https://restapi.demoqa.com/customer";
-        RequestSpecification request = RestAssured.given();
-
-
-
-    }
 
 }
