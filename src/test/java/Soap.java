@@ -16,11 +16,11 @@ public class Soap {
     @Test
     public void readXml() throws IOException {
         FileInputStream stream=new FileInputStream("C:\\Users\\atkabladze\\Desktop\\RestAssuredProject\\src\\main\\resources\\test.xml");
-        RestAssured.baseURI="http://www.dneonline.com/calculator.asmx";
+        RestAssured.baseURI="http://currencyconverter.kowabunga.net";
         Response response=given().header("Content-Type","text/xml").and().body(IOUtils.toString(stream,"UTF-8"))
-                .when().post("?op=Add").then().statusCode(500).and().log().all().extract().response();
+                .when().post("/converter.asmx").then().statusCode(200).and().log().all().extract().response();
         XmlPath xmlPath=new XmlPath(response.asString());
-        String rate=xmlPath.getString("AddResult");
+        String rate=xmlPath.getString("GetConversionRateResult");
         System.out.println(rate);
     }
 }
