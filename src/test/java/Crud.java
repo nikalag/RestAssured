@@ -43,15 +43,16 @@ public class Crud {
     public void test2() {
 
         JSONObject request = new JSONObject();
-        request.put("name", "morpheus");
-        request.put("job", "zion resident");
+        request.put( "name", "morpheus");
+        request.put( "job","leader");
+
 
 
         given().
                 body(request.toJSONString()).
                 when().
-                post("https://reqres.in/api/users/2").
-                then().body("data.email", equalTo("morpheus"));
+                post("https://reqres.in/api/users").
+                then().log().body().statusCode(200);
 
     }
     @Test
