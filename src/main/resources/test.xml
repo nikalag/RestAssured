@@ -2,9 +2,7 @@
     <soapenv:Header/>
     <soapenv:Body>
         <tem:GetConversionRate>
-            <!--Optional:-->
             <tem:CurrencyFrom>USD</tem:CurrencyFrom>
-            <!--Optional:-->
             <tem:CurrencyTo>GEL</tem:CurrencyTo>
             <tem:RateDate>2020-02-02</tem:RateDate>
         </tem:GetConversionRate>
