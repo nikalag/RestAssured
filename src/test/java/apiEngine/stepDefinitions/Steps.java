@@ -1,23 +1,24 @@
-/*
-import java.util.List;
-import java.util.Map;
+package apiEngine.stepDefinitions;
 
-import org.junit.Assert;
 
-import apiEngine.EndPoints;
 import apiEngine.model.Book;
 import apiEngine.model.requests.AddBooksRequest;
 import apiEngine.model.requests.AuthorizationRequest;
-
+import apiEngine.model.requests.ISBN;
 import apiEngine.model.requests.RemoveBookRequest;
-import apiEngine.response.Books;
-import apiEngine.response.Token;
+import apiEngine.model.response.Books;
+import apiEngine.model.response.Token;
 import apiEngine.model.response.UserAccount;
+import org.junit.Assert;
+
+import apiEngine.EndPoints;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import io.restassured.response.Response;
+import org.testng.annotations.Test;
 
 public class Steps {
 
@@ -35,10 +36,12 @@ public class Steps {
     }
 
     @Given("A list of books are available")
+    @Test
     public void listOfBooksAreAvailable() {
         response = EndPoints.getBooks();
         Books books = response.getBody().as(Books.class);
         book = books.books.get(0);
+        System.out.println(book.isbn);
     }
 
     @When("I add a book to my reading list")
@@ -51,7 +54,9 @@ public class Steps {
     @Then("The book is added")
     public void bookIsAdded() {
         Assert.assertEquals(201, response.getStatusCode());
+
         UserAccount userAccount = response.getBody().as(UserAccount.class);
+
         Assert.assertEquals(USER_ID, userAccount.userID);
         Assert.assertEquals(book.isbn, userAccount.books.get(0).isbn);
     }
@@ -72,4 +77,4 @@ public class Steps {
         UserAccount userAccount = response.getBody().as(UserAccount.class);
         Assert.assertEquals(0, userAccount.books.size());
     }
-}*/
+}

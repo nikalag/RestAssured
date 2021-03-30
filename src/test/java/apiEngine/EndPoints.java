@@ -14,6 +14,7 @@ public class EndPoints {
     public static Response authenticateUser(AuthorizationRequest authRequest) {
         RestAssured.baseURI = BASE_URL;
         RequestSpecification request = RestAssured.given();
+
         request.header("Content-Type", "application/json");
         Response response = request.body(authRequest).post("/Account/v1/GenerateToken");
         return response;
@@ -22,6 +23,7 @@ public class EndPoints {
     public static Response getBooks() {
         RestAssured.baseURI = BASE_URL;
         RequestSpecification request = RestAssured.given();
+
         request.header("Content-Type", "application/json");
         Response response = request.get("/BookStore/v1/Books");
         return response;
