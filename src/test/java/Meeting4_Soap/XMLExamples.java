@@ -3,10 +3,10 @@ import io.restassured.RestAssured;
 import io.restassured.internal.path.xml.NodeChildrenImpl;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
-import org.apache.commons.io.IOUtils;
+
 import org.testng.annotations.Test;
 
-import static com.sun.xml.internal.ws.encoding.soap.streaming.SOAPNamespaceConstants.XSD;
+
 import static io.restassured.RestAssured.*;
 import static io.restassured.internal.matcher.xml.XmlXsdMatcher.matchesXsd;
 import static io.restassured.internal.matcher.xml.XmlXsdMatcher.matchesXsdInClasspath;

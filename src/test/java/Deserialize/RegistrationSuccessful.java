@@ -20,7 +20,7 @@ public class RegistrationSuccessful{
 @Test
 public void RegistrationSuccessful() {
     RestAssured.baseURI = "https://demoqa.com/customer";
-    RequestSpecification request = RestAssured.given();
+    RequestSpecification request = RestAssured.given().header("Content-type", "application/json");
 
     JSONObject requestParams = new JSONObject();
     requestParams.put("FirstName", "Virender"); // Cast
@@ -48,7 +48,7 @@ public void RegistrationSuccessful() {
     public void RegistrationWithDifferentStatuses()
     {
         RestAssured.baseURI ="https://demoqa.com/customer";
-        RequestSpecification request = RestAssured.given();
+        RequestSpecification request = RestAssured.given().header("Content-type", "application/json");
 
         JSONObject requestParams = new JSONObject();
         requestParams.put("FirstName", "Virender"); // Cast
