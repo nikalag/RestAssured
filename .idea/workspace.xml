@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81b52b74-bafd-4ef6-b68e-d91eaa6216a7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zdglxe4cPGNUmluDPMOiKcs0oe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Rest-Assured-BootCamp" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.Test.getCollection">
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tast4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.createCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tast4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="createCollection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.getCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tast4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="getCollection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tast4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.updateCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Tast4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="updateCollection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test.getCollection" />
+        <item itemvalue="TestNG.Test" />
+        <item itemvalue="TestNG.Test.updateCollection" />
+        <item itemvalue="TestNG.Test.createCollection" />
+        <item itemvalue="TestNG.Test.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b52b74-bafd-4ef6-b68e-d91eaa6216a7" name="Default Changelist" comment="" />
+      <created>1634483533968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634483533968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1634655943705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1634655943705" />
+    <state width="1877" height="589" key="GridCell.Tab.0.bottom" timestamp="1634658243718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="589" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1634658243718" />
+    <state width="1877" height="589" key="GridCell.Tab.0.center" timestamp="1634658243718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="589" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1634658243718" />
+    <state width="1877" height="589" key="GridCell.Tab.0.left" timestamp="1634658243718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="589" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1634658243718" />
+    <state width="1877" height="589" key="GridCell.Tab.0.right" timestamp="1634658243718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="589" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1634658243718" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1634577895561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1634577895561" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1634577895561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1634577895560" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1634577895560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1634577895560" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1634577895561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1634577895561" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1634484909216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1634484909216" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1634569377730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1634569377730" />
+  </component>
+</project>
