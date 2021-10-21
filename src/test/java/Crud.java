@@ -41,7 +41,6 @@ public class Crud {
 
     @Test
     public void test2() {
-
         JSONObject request = new JSONObject();
         request.put( "name", "morpheus");
         request.put( "job","leader");
